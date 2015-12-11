@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="362dc071-6f9b-4b76-9655-37501df58e4b" name="Default" comment="" />
+    <ignored path="search-and-rank.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/search-and-rank$nn.coverage" NAME="nn Coverage Results" MODIFIED="1449735317628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rank" />
+    <SUITE FILE_PATH="coverage/search-and-rank$docclass.coverage" NAME="docclass Coverage Results" MODIFIED="1449823554200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/document flitering" />
+    <SUITE FILE_PATH="coverage/search-and-rank$searchengine.coverage" NAME="searchengine Coverage Results" MODIFIED="1449730619702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rank" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="search-and-rank" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="searchengine.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rank/searchengine.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <folding>
+                <element signature="e#19#33#0" expanded="true" />
+                <marker date="1449746855955" expanded="true" signature="583:617" placeholder="select rowid..missing_value..." />
+                <marker date="1449746855955" expanded="true" signature="718:751" placeholder="insert into ..." />
+                <marker date="1449746855955" expanded="true" signature="1246:1310" placeholder="insert into ..." />
+                <marker date="1449746855955" expanded="true" signature="1895:1935" placeholder="select rowid..urllist..." />
+                <marker date="1449746855955" expanded="true" signature="1997:2036" placeholder="select * fro..wordlocation..." />
+                <marker date="1449746855955" expanded="true" signature="2378:2422" placeholder="insert into ..." />
+                <marker date="1449746855955" expanded="true" signature="2605:2656" placeholder="insert into ..." />
+                <marker date="1449746855955" expanded="true" signature="3649:3674" placeholder="create table..urllist..." />
+                <marker date="1449746855955" expanded="true" signature="3701:3728" placeholder="create table..wordlist..." />
+                <marker date="1449746855955" expanded="true" signature="3755:3803" placeholder="create table..wordlocation..." />
+                <marker date="1449746855955" expanded="true" signature="3830:3876" placeholder="create table..link..." />
+                <marker date="1449746855955" expanded="true" signature="3903:3940" placeholder="create table..linkwords..." />
+                <marker date="1449746855955" expanded="true" signature="3967:4005" placeholder="create index..wordidx..." />
+                <marker date="1449746855955" expanded="true" signature="4032:4067" placeholder="create index..urlidx..." />
+                <marker date="1449746855955" expanded="true" signature="4094:4141" placeholder="create index..wordurlidx..." />
+                <marker date="1449746855955" expanded="true" signature="4168:4203" placeholder="create index..urltoidx..." />
+                <marker date="1449746855955" expanded="true" signature="4230:4269" placeholder="create index..urlfromidx..." />
+                <marker date="1449746855955" expanded="true" signature="4406:4435" placeholder="drop table i..." />
+                <marker date="1449746855955" expanded="true" signature="4460:4506" placeholder="create table..pagerank..." />
+                <marker date="1449746855955" expanded="true" signature="4597:4622" placeholder="select rowid..urllist..." />
+                <marker date="1449746855955" expanded="true" signature="4650:4699" placeholder="insert into ..." />
+                <marker date="1449746855955" expanded="true" signature="4836:4861" placeholder="select rowid..urllist..." />
+                <marker date="1449746855955" expanded="true" signature="4993:5037" placeholder="select disti..link..." />
+                <marker date="1449746855955" expanded="true" signature="5144:5183" placeholder="select score..pagerank..." />
+                <marker date="1449746855955" expanded="true" signature="5322:5361" placeholder="select count..link..." />
+                <marker date="1449746855955" expanded="true" signature="5468:5509" placeholder="update pager..." />
+                <marker date="1449746855955" expanded="true" signature="6253:6295" placeholder="select rowid..wordlist..." />
+                <marker date="1449746855955" expanded="true" signature="6849:6873" placeholder="select missi..missing_value..." />
+                <marker date="1449746855955" expanded="true" signature="7732:7768" placeholder="select url f..urllist..." />
+                <marker date="1449746855955" expanded="true" signature="9666:9691" placeholder="SELECT count..link..." />
+                <marker date="1449746855955" expanded="true" signature="9666:9703" placeholder="SELECT count..link..." />
+                <marker date="1449746855955" expanded="true" signature="9666:9705" placeholder="SELECT count..link..." />
+                <marker date="1449746855955" expanded="true" signature="9929:9968" placeholder="select score..pagerank..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docclass.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/document flitering/docclass.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.73547095">
+              <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+              <folding>
+                <element signature="e#19#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nn.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rank/nn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="99" column="14" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="14" />
+              <folding>
+                <element signature="e#19#40#0" expanded="true" />
+                <marker date="1449740459880" expanded="true" signature="263:298" placeholder="create table..hiddennode..." />
+                <marker date="1449740459880" expanded="true" signature="325:370" placeholder="create table..wordhidden..." />
+                <marker date="1449740459880" expanded="true" signature="397:441" placeholder="create table..hiddenurl..." />
+                <marker date="1449740459880" expanded="true" signature="610:659" placeholder="select stren..missing_value..." />
+                <marker date="1449740459880" expanded="true" signature="955:1001" placeholder="select rowid..missing_value..." />
+                <marker date="1449740459880" expanded="true" signature="1085:1140" placeholder="insert into ..." />
+                <marker date="1449740459880" expanded="true" signature="1233:1271" placeholder="update missi..." />
+                <marker date="1449740459880" expanded="true" signature="1598:1648" placeholder="select rowid..hiddennode..." />
+                <marker date="1449740459880" expanded="true" signature="1760:1809" placeholder="insert into ..." />
+                <marker date="1449740459880" expanded="true" signature="2215:2256" placeholder="select toid ..wordhidden..." />
+                <marker date="1449740459880" expanded="true" signature="2373:2413" placeholder="select fromi..hiddenurl..." />
+                <marker date="1449740459880" expanded="true" signature="4121:4145" placeholder="select * fro..wordhidden..." />
+                <marker date="1449740459880" expanded="true" signature="4233:4256" placeholder="select * fro..hiddenurl..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/rank/nn.py" />
+        <option value="$PROJECT_DIR$/rank/searchengine.py" />
+        <option value="$PROJECT_DIR$/document flitering/docclass.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="search-and-rank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="search-and-rank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="search-and-rank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="search-and-rank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="search-and-rank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="document flitering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager" selected="Python.docclass">
+    <configuration default="false" name="searchengine" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rank" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="search-and-rank" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rank/searchengine.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="nn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rank" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="search-and-rank" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rank/nn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="docclass" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/document flitering" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="search-and-rank" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/document flitering/docclass.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="search-and-rank" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="search-and-rank" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="search-and-rank" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="search-and-rank" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="search-and-rank" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="search-and-rank" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="search-and-rank" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="search-and-rank" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="search-and-rank" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python.searchengine" />
+      <item index="1" class="java.lang.String" itemvalue="Python.nn" />
+      <item index="2" class="java.lang.String" itemvalue="Python.docclass" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.docclass" />
+        <item index="1" class="java.lang.String" itemvalue="Python.nn" />
+        <item index="2" class="java.lang.String" itemvalue="Python.searchengine" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="362dc071-6f9b-4b76-9655-37501df58e4b" name="Default" comment="" />
+      <created>1449389824454</created>
+      <option name="number" value="Default" />
+      <updated>1449389824454</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2734375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/rank/searchengine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding>
+            <element signature="e#19#33#0" expanded="true" />
+            <marker date="1449746855955" expanded="true" signature="583:617" placeholder="select rowid..missing_value..." />
+            <marker date="1449746855955" expanded="true" signature="718:751" placeholder="insert into ..." />
+            <marker date="1449746855955" expanded="true" signature="1246:1310" placeholder="insert into ..." />
+            <marker date="1449746855955" expanded="true" signature="1895:1935" placeholder="select rowid..urllist..." />
+            <marker date="1449746855955" expanded="true" signature="1997:2036" placeholder="select * fro..wordlocation..." />
+            <marker date="1449746855955" expanded="true" signature="2378:2422" placeholder="insert into ..." />
+            <marker date="1449746855955" expanded="true" signature="2605:2656" placeholder="insert into ..." />
+            <marker date="1449746855955" expanded="true" signature="3649:3674" placeholder="create table..urllist..." />
+            <marker date="1449746855955" expanded="true" signature="3701:3728" placeholder="create table..wordlist..." />
+            <marker date="1449746855955" expanded="true" signature="3755:3803" placeholder="create table..wordlocation..." />
+            <marker date="1449746855955" expanded="true" signature="3830:3876" placeholder="create table..link..." />
+            <marker date="1449746855955" expanded="true" signature="3903:3940" placeholder="create table..linkwords..." />
+            <marker date="1449746855955" expanded="true" signature="3967:4005" placeholder="create index..wordidx..." />
+            <marker date="1449746855955" expanded="true" signature="4032:4067" placeholder="create index..urlidx..." />
+            <marker date="1449746855955" expanded="true" signature="4094:4141" placeholder="create index..wordurlidx..." />
+            <marker date="1449746855955" expanded="true" signature="4168:4203" placeholder="create index..urltoidx..." />
+            <marker date="1449746855955" expanded="true" signature="4230:4269" placeholder="create index..urlfromidx..." />
+            <marker date="1449746855955" expanded="true" signature="4406:4435" placeholder="drop table i..." />
+            <marker date="1449746855955" expanded="true" signature="4460:4506" placeholder="create table..pagerank..." />
+            <marker date="1449746855955" expanded="true" signature="4597:4622" placeholder="select rowid..urllist..." />
+            <marker date="1449746855955" expanded="true" signature="4650:4699" placeholder="insert into ..." />
+            <marker date="1449746855955" expanded="true" signature="4836:4861" placeholder="select rowid..urllist..." />
+            <marker date="1449746855955" expanded="true" signature="4993:5037" placeholder="select disti..link..." />
+            <marker date="1449746855955" expanded="true" signature="5144:5183" placeholder="select score..pagerank..." />
+            <marker date="1449746855955" expanded="true" signature="5322:5361" placeholder="select count..link..." />
+            <marker date="1449746855955" expanded="true" signature="5468:5509" placeholder="update pager..." />
+            <marker date="1449746855955" expanded="true" signature="6253:6295" placeholder="select rowid..wordlist..." />
+            <marker date="1449746855955" expanded="true" signature="6849:6873" placeholder="select missi..missing_value..." />
+            <marker date="1449746855955" expanded="true" signature="7732:7768" placeholder="select url f..urllist..." />
+            <marker date="1449746855955" expanded="true" signature="9666:9691" placeholder="SELECT count..link..." />
+            <marker date="1449746855955" expanded="true" signature="9666:9703" placeholder="SELECT count..link..." />
+            <marker date="1449746855955" expanded="true" signature="9666:9705" placeholder="SELECT count..link..." />
+            <marker date="1449746855955" expanded="true" signature="9929:9968" placeholder="select score..pagerank..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/document flitering/docclass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#19#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rank/nn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="118" column="62" selection-start-line="118" selection-start-column="62" selection-end-line="118" selection-end-column="62" />
+          <folding>
+            <element signature="e#19#40#0" expanded="true" />
+            <marker date="1449740459880" expanded="true" signature="263:298" placeholder="create table..hiddennode..." />
+            <marker date="1449740459880" expanded="true" signature="325:370" placeholder="create table..wordhidden..." />
+            <marker date="1449740459880" expanded="true" signature="397:441" placeholder="create table..hiddenurl..." />
+            <marker date="1449740459880" expanded="true" signature="610:659" placeholder="select stren..missing_value..." />
+            <marker date="1449740459880" expanded="true" signature="955:1001" placeholder="select rowid..missing_value..." />
+            <marker date="1449740459880" expanded="true" signature="1085:1140" placeholder="insert into ..." />
+            <marker date="1449740459880" expanded="true" signature="1233:1271" placeholder="update missi..." />
+            <marker date="1449740459880" expanded="true" signature="1598:1648" placeholder="select rowid..hiddennode..." />
+            <marker date="1449740459880" expanded="true" signature="1760:1809" placeholder="insert into ..." />
+            <marker date="1449740459880" expanded="true" signature="2215:2256" placeholder="select toid ..wordhidden..." />
+            <marker date="1449740459880" expanded="true" signature="2373:2413" placeholder="select fromi..hiddenurl..." />
+            <marker date="1449740459880" expanded="true" signature="4121:4145" placeholder="select * fro..wordhidden..." />
+            <marker date="1449740459880" expanded="true" signature="4233:4256" placeholder="select * fro..hiddenurl..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rank/searchengine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#19#33#0" expanded="true" />
+            <marker date="1449746855955" expanded="true" signature="583:617" placeholder="select rowid..missing_value..." />
+            <marker date="1449746855955" expanded="true" signature="718:751" placeholder="insert into ..." />
+            <marker date="1449746855955" expanded="true" signature="1246:1310" placeholder="insert into ..." />
+            <marker date="1449746855955" expanded="true" signature="1895:1935" placeholder="select rowid..urllist..." />
+            <marker date="1449746855955" expanded="true" signature="1997:2036" placeholder="select * fro..wordlocation..." />
+            <marker date="1449746855955" expanded="true" signature="2378:2422" placeholder="insert into ..." />
+            <marker date="1449746855955" expanded="true" signature="2605:2656" placeholder="insert into ..." />
+            <marker date="1449746855955" expanded="true" signature="3649:3674" placeholder="create table..urllist..." />
+            <marker date="1449746855955" expanded="true" signature="3701:3728" placeholder="create table..wordlist..." />
+            <marker date="1449746855955" expanded="true" signature="3755:3803" placeholder="create table..wordlocation..." />
+            <marker date="1449746855955" expanded="true" signature="3830:3876" placeholder="create table..link..." />
+            <marker date="1449746855955" expanded="true" signature="3903:3940" placeholder="create table..linkwords..." />
+            <marker date="1449746855955" expanded="true" signature="3967:4005" placeholder="create index..wordidx..." />
+            <marker date="1449746855955" expanded="true" signature="4032:4067" placeholder="create index..urlidx..." />
+            <marker date="1449746855955" expanded="true" signature="4094:4141" placeholder="create index..wordurlidx..." />
+            <marker date="1449746855955" expanded="true" signature="4168:4203" placeholder="create index..urltoidx..." />
+            <marker date="1449746855955" expanded="true" signature="4230:4269" placeholder="create index..urlfromidx..." />
+            <marker date="1449746855955" expanded="true" signature="4406:4435" placeholder="drop table i..." />
+            <marker date="1449746855955" expanded="true" signature="4460:4506" placeholder="create table..pagerank..." />
+            <marker date="1449746855955" expanded="true" signature="4597:4622" placeholder="select rowid..urllist..." />
+            <marker date="1449746855955" expanded="true" signature="4650:4699" placeholder="insert into ..." />
+            <marker date="1449746855955" expanded="true" signature="4836:4861" placeholder="select rowid..urllist..." />
+            <marker date="1449746855955" expanded="true" signature="4993:5037" placeholder="select disti..link..." />
+            <marker date="1449746855955" expanded="true" signature="5144:5183" placeholder="select score..pagerank..." />
+            <marker date="1449746855955" expanded="true" signature="5322:5361" placeholder="select count..link..." />
+            <marker date="1449746855955" expanded="true" signature="5468:5509" placeholder="update pager..." />
+            <marker date="1449746855955" expanded="true" signature="6253:6295" placeholder="select rowid..wordlist..." />
+            <marker date="1449746855955" expanded="true" signature="6849:6873" placeholder="select missi..missing_value..." />
+            <marker date="1449746855955" expanded="true" signature="7732:7768" placeholder="select url f..urllist..." />
+            <marker date="1449746855955" expanded="true" signature="9666:9691" placeholder="SELECT count..link..." />
+            <marker date="1449746855955" expanded="true" signature="9666:9703" placeholder="SELECT count..link..." />
+            <marker date="1449746855955" expanded="true" signature="9666:9705" placeholder="SELECT count..link..." />
+            <marker date="1449746855955" expanded="true" signature="9929:9968" placeholder="select score..pagerank..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rank/searchengine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#19#33#0" expanded="true" />
+            <marker date="1449746855955" expanded="true" signature="583:617" placeholder="select rowid..missing_value..." />
+            <marker date="1449746855955" expanded="true" signature="718:751" placeholder="insert into ..." />
+            <marker date="1449746855955" expanded="true" signature="1246:1310" placeholder="insert into ..." />
+            <marker date="1449746855955" expanded="true" signature="1895:1935" placeholder="select rowid..urllist..." />
+            <marker date="1449746855955" expanded="true" signature="1997:2036" placeholder="select * fro..wordlocation..." />
+            <marker date="1449746855955" expanded="true" signature="2378:2422" placeholder="insert into ..." />
+            <marker date="1449746855955" expanded="true" signature="2605:2656" placeholder="insert into ..." />
+            <marker date="1449746855955" expanded="true" signature="3649:3674" placeholder="create table..urllist..." />
+            <marker date="1449746855955" expanded="true" signature="3701:3728" placeholder="create table..wordlist..." />
+            <marker date="1449746855955" expanded="true" signature="3755:3803" placeholder="create table..wordlocation..." />
+            <marker date="1449746855955" expanded="true" signature="3830:3876" placeholder="create table..link..." />
+            <marker date="1449746855955" expanded="true" signature="3903:3940" placeholder="create table..linkwords..." />
+            <marker date="1449746855955" expanded="true" signature="3967:4005" placeholder="create index..wordidx..." />
+            <marker date="1449746855955" expanded="true" signature="4032:4067" placeholder="create index..urlidx..." />
+            <marker date="1449746855955" expanded="true" signature="4094:4141" placeholder="create index..wordurlidx..." />
+            <marker date="1449746855955" expanded="true" signature="4168:4203" placeholder="create index..urltoidx..." />
+            <marker date="1449746855955" expanded="true" signature="4230:4269" placeholder="create index..urlfromidx..." />
+            <marker date="1449746855955" expanded="true" signature="4406:4435" placeholder="drop table i..." />
+            <marker date="1449746855955" expanded="true" signature="4460:4506" placeholder="create table..pagerank..." />
+            <marker date="1449746855955" expanded="true" signature="4597:4622" placeholder="select rowid..urllist..." />
+            <marker date="1449746855955" expanded="true" signature="4650:4699" placeholder="insert into ..." />
+            <marker date="1449746855955" expanded="true" signature="4836:4861" placeholder="select rowid..urllist..." />
+            <marker date="1449746855955" expanded="true" signature="4993:5037" placeholder="select disti..link..." />
+            <marker date="1449746855955" expanded="true" signature="5144:5183" placeholder="select score..pagerank..." />
+            <marker date="1449746855955" expanded="true" signature="5322:5361" placeholder="select count..link..." />
+            <marker date="1449746855955" expanded="true" signature="5468:5509" placeholder="update pager..." />
+            <marker date="1449746855955" expanded="true" signature="6253:6295" placeholder="select rowid..wordlist..." />
+            <marker date="1449746855955" expanded="true" signature="6849:6873" placeholder="select missi..missing_value..." />
+            <marker date="1449746855955" expanded="true" signature="7732:7768" placeholder="select url f..urllist..." />
+            <marker date="1449746855955" expanded="true" signature="9666:9691" placeholder="SELECT count..link..." />
+            <marker date="1449746855955" expanded="true" signature="9666:9703" placeholder="SELECT count..link..." />
+            <marker date="1449746855955" expanded="true" signature="9666:9705" placeholder="SELECT count..link..." />
+            <marker date="1449746855955" expanded="true" signature="9929:9968" placeholder="select score..pagerank..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rank/searchengine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#19#33#0" expanded="true" />
+            <marker date="1449746855955" expanded="true" signature="583:617" placeholder="select rowid..missing_value..." />
+            <marker date="1449746855955" expanded="true" signature="718:751" placeholder="insert into ..." />
+            <marker date="1449746855955" expanded="true" signature="1246:1310" placeholder="insert into ..." />
+            <marker date="1449746855955" expanded="true" signature="1895:1935" placeholder="select rowid..urllist..." />
+            <marker date="1449746855955" expanded="true" signature="1997:2036" placeholder="select * fro..wordlocation..." />
+            <marker date="1449746855955" expanded="true" signature="2378:2422" placeholder="insert into ..." />
+            <marker date="1449746855955" expanded="true" signature="2605:2656" placeholder="insert into ..." />
+            <marker date="1449746855955" expanded="true" signature="3649:3674" placeholder="create table..urllist..." />
+            <marker date="1449746855955" expanded="true" signature="3701:3728" placeholder="create table..wordlist..." />
+            <marker date="1449746855955" expanded="true" signature="3755:3803" placeholder="create table..wordlocation..." />
+            <marker date="1449746855955" expanded="true" signature="3830:3876" placeholder="create table..link..." />
+            <marker date="1449746855955" expanded="true" signature="3903:3940" placeholder="create table..linkwords..." />
+            <marker date="1449746855955" expanded="true" signature="3967:4005" placeholder="create index..wordidx..." />
+            <marker date="1449746855955" expanded="true" signature="4032:4067" placeholder="create index..urlidx..." />
+            <marker date="1449746855955" expanded="true" signature="4094:4141" placeholder="create index..wordurlidx..." />
+            <marker date="1449746855955" expanded="true" signature="4168:4203" placeholder="create index..urltoidx..." />
+            <marker date="1449746855955" expanded="true" signature="4230:4269" placeholder="create index..urlfromidx..." />
+            <marker date="1449746855955" expanded="true" signature="4406:4435" placeholder="drop table i..." />
+            <marker date="1449746855955" expanded="true" signature="4460:4506" placeholder="create table..pagerank..." />
+            <marker date="1449746855955" expanded="true" signature="4597:4622" placeholder="select rowid..urllist..." />
+            <marker date="1449746855955" expanded="true" signature="4650:4699" placeholder="insert into ..." />
+            <marker date="1449746855955" expanded="true" signature="4836:4861" placeholder="select rowid..urllist..." />
+            <marker date="1449746855955" expanded="true" signature="4993:5037" placeholder="select disti..link..." />
+            <marker date="1449746855955" expanded="true" signature="5144:5183" placeholder="select score..pagerank..." />
+            <marker date="1449746855955" expanded="true" signature="5322:5361" placeholder="select count..link..." />
+            <marker date="1449746855955" expanded="true" signature="5468:5509" placeholder="update pager..." />
+            <marker date="1449746855955" expanded="true" signature="6253:6295" placeholder="select rowid..wordlist..." />
+            <marker date="1449746855955" expanded="true" signature="6849:6873" placeholder="select missi..missing_value..." />
+            <marker date="1449746855955" expanded="true" signature="7732:7768" placeholder="select url f..urllist..." />
+            <marker date="1449746855955" expanded="true" signature="9666:9691" placeholder="SELECT count..link..." />
+            <marker date="1449746855955" expanded="true" signature="9666:9703" placeholder="SELECT count..link..." />
+            <marker date="1449746855955" expanded="true" signature="9666:9705" placeholder="SELECT count..link..." />
+            <marker date="1449746855955" expanded="true" signature="9929:9968" placeholder="select score..pagerank..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rank/searchengine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding>
+            <element signature="e#19#33#0" expanded="true" />
+            <marker date="1449746855955" expanded="true" signature="583:617" placeholder="select rowid..missing_value..." />
+            <marker date="1449746855955" expanded="true" signature="718:751" placeholder="insert into ..." />
+            <marker date="1449746855955" expanded="true" signature="1246:1310" placeholder="insert into ..." />
+            <marker date="1449746855955" expanded="true" signature="1895:1935" placeholder="select rowid..urllist..." />
+            <marker date="1449746855955" expanded="true" signature="1997:2036" placeholder="select * fro..wordlocation..." />
+            <marker date="1449746855955" expanded="true" signature="2378:2422" placeholder="insert into ..." />
+            <marker date="1449746855955" expanded="true" signature="2605:2656" placeholder="insert into ..." />
+            <marker date="1449746855955" expanded="true" signature="3649:3674" placeholder="create table..urllist..." />
+            <marker date="1449746855955" expanded="true" signature="3701:3728" placeholder="create table..wordlist..." />
+            <marker date="1449746855955" expanded="true" signature="3755:3803" placeholder="create table..wordlocation..." />
+            <marker date="1449746855955" expanded="true" signature="3830:3876" placeholder="create table..link..." />
+            <marker date="1449746855955" expanded="true" signature="3903:3940" placeholder="create table..linkwords..." />
+            <marker date="1449746855955" expanded="true" signature="3967:4005" placeholder="create index..wordidx..." />
+            <marker date="1449746855955" expanded="true" signature="4032:4067" placeholder="create index..urlidx..." />
+            <marker date="1449746855955" expanded="true" signature="4094:4141" placeholder="create index..wordurlidx..." />
+            <marker date="1449746855955" expanded="true" signature="4168:4203" placeholder="create index..urltoidx..." />
+            <marker date="1449746855955" expanded="true" signature="4230:4269" placeholder="create index..urlfromidx..." />
+            <marker date="1449746855955" expanded="true" signature="4406:4435" placeholder="drop table i..." />
+            <marker date="1449746855955" expanded="true" signature="4460:4506" placeholder="create table..pagerank..." />
+            <marker date="1449746855955" expanded="true" signature="4597:4622" placeholder="select rowid..urllist..." />
+            <marker date="1449746855955" expanded="true" signature="4650:4699" placeholder="insert into ..." />
+            <marker date="1449746855955" expanded="true" signature="4836:4861" placeholder="select rowid..urllist..." />
+            <marker date="1449746855955" expanded="true" signature="4993:5037" placeholder="select disti..link..." />
+            <marker date="1449746855955" expanded="true" signature="5144:5183" placeholder="select score..pagerank..." />
+            <marker date="1449746855955" expanded="true" signature="5322:5361" placeholder="select count..link..." />
+            <marker date="1449746855955" expanded="true" signature="5468:5509" placeholder="update pager..." />
+            <marker date="1449746855955" expanded="true" signature="6253:6295" placeholder="select rowid..wordlist..." />
+            <marker date="1449746855955" expanded="true" signature="6849:6873" placeholder="select missi..missing_value..." />
+            <marker date="1449746855955" expanded="true" signature="7732:7768" placeholder="select url f..urllist..." />
+            <marker date="1449746855955" expanded="true" signature="9666:9691" placeholder="SELECT count..link..." />
+            <marker date="1449746855955" expanded="true" signature="9666:9703" placeholder="SELECT count..link..." />
+            <marker date="1449746855955" expanded="true" signature="9666:9705" placeholder="SELECT count..link..." />
+            <marker date="1449746855955" expanded="true" signature="9929:9968" placeholder="select score..pagerank..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rank/nn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="99" column="14" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="14" />
+          <folding>
+            <element signature="e#19#40#0" expanded="true" />
+            <marker date="1449740459880" expanded="true" signature="263:298" placeholder="create table..hiddennode..." />
+            <marker date="1449740459880" expanded="true" signature="325:370" placeholder="create table..wordhidden..." />
+            <marker date="1449740459880" expanded="true" signature="397:441" placeholder="create table..hiddenurl..." />
+            <marker date="1449740459880" expanded="true" signature="610:659" placeholder="select stren..missing_value..." />
+            <marker date="1449740459880" expanded="true" signature="955:1001" placeholder="select rowid..missing_value..." />
+            <marker date="1449740459880" expanded="true" signature="1085:1140" placeholder="insert into ..." />
+            <marker date="1449740459880" expanded="true" signature="1233:1271" placeholder="update missi..." />
+            <marker date="1449740459880" expanded="true" signature="1598:1648" placeholder="select rowid..hiddennode..." />
+            <marker date="1449740459880" expanded="true" signature="1760:1809" placeholder="insert into ..." />
+            <marker date="1449740459880" expanded="true" signature="2215:2256" placeholder="select toid ..wordhidden..." />
+            <marker date="1449740459880" expanded="true" signature="2373:2413" placeholder="select fromi..hiddenurl..." />
+            <marker date="1449740459880" expanded="true" signature="4121:4145" placeholder="select * fro..wordhidden..." />
+            <marker date="1449740459880" expanded="true" signature="4233:4256" placeholder="select * fro..hiddenurl..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/document flitering/docclass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73547095">
+          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding>
+            <element signature="e#19#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
